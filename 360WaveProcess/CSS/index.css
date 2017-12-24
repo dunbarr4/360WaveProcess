@@ -1,0 +1,88 @@
+/* Base Styles -------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 4.375em;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 3.375em;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+/* Main Header Styles --------------------- */
+
+.mainHeader {
+    width: 100%;
+    background: #6c648B;
+    padding: 70px 0 100px;
+    border-bottom: 4px solid #6bbaa7;
+    margin-bottom: 0;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.nav {
+    font-size: 1.35em;
+    color: white;
+    margin: 10.5%;
+}
+
+.arrow {
+    width: 50px;
+    margin: 10px 10.9%;
+}
+
+
+/* About Styles --------------------- */
+
+.about {
+    text-align: center;
+    background: #b6a19e;
+    margin-top: 0;
+    height: 700px;
+}
+
+.aboutP {
+    color: white;
+    font-size: 1.85em;
+
+}
+
+/* Products Styles --------------------- */
+
+.products {
+    background-image:url('https://i.imgur.com/DhiGHBd.gifv');
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* How To Styles --------------------- */
+
+/* Videos Styles --------------------- */
+
+/* Subscribe Styles --------------------- */
+
+/* Footer Styles --------------------- */
