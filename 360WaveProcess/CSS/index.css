@@ -1,13 +1,20 @@
+/* Imported -------------------- */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
 /* Base Styles -------------------- */
 
 * {
     box-sizing: border-box;
 }
 
-h1 {
-    text-align: center;
-    color: white;
-    font-size: 4.375em;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 h2 {
@@ -20,32 +27,52 @@ h2 {
 
 /* Main Header Styles --------------------- */
 
-.mainHeader {
+.intro {
+    height: 100%;
     width: 100%;
-    background: #6c648B url('../images/blue-wave.jpg') no-repeat center;
+    margin: auto;
+    background: linear-gradient(rgba(108, 100, 139, 1), rgba(188, 161, 158, 0.2) 40%, rgba(188, 161, 158, 0.2) 70%, rgba(188, 161, 158, 1) 100%),
+                #6c648b url('../images/animatedback.gif') no-repeat 50% 50%;
+    display: table;
+    top: 0;
     background-size: cover;
-    padding: 70px 0 100px;
-    border-bottom: 4px solid #6bbaa7;
-    margin-bottom: 0;
 }
 
-.title {
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
     text-align: center;
-    color: white;
-    font-size: 2em;
 }
 
-.nav {
-    font-size: 1.35em;
-    color: white;
-    margin: 10.5%;
+.content h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #f9f3f4;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 392%;
 }
 
-.arrow {
-    width: 50px;
-    margin: 10px 10.9%;
+.button {
+    border: solid #fba100 3px;
+    border-radius: 9px;
+    font-family: 'Oswald', sans-serif;
+    color: #fba100;
+    font-size: 135%;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
+.btn:hover {
+    color: #fff;
+    border: solid #fff 3px;
+}
 
 /* About Styles --------------------- */
 
@@ -65,7 +92,7 @@ h2 {
 /* Products Styles --------------------- */
 
 .products {
-    background-image:url('https://i.imgur.com/DhiGHBd.gifv');
+    background-image: url('https://i.imgur.com/DhiGHBd.gifv');
     background-position: center;
     background-size: cover;
 }
@@ -80,10 +107,25 @@ h2 {
 }
 
 
-/* How To Styles --------------------- */
+/* Tips Styles --------------------- */
 
 /* Videos Styles --------------------- */
 
 /* Subscribe Styles --------------------- */
 
 /* Footer Styles --------------------- */
+
+/* Media Queries --------------------- */
+
+@media screen and (max-width: 768px) {
+
+    .content h1 {
+        font-size: 250%;
+    }
+
+    .button {
+        font-size: 110%;
+        padding: 7px 15px;
+    }
+
+}
