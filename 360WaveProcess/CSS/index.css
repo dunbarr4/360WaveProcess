@@ -22,7 +22,8 @@ h2 {
 
 .mainHeader {
     width: 100%;
-    background: #6c648B;
+    background: #6c648B url('../images/blue-wave.jpg') no-repeat center;
+    background-size: cover;
     padding: 70px 0 100px;
     border-bottom: 4px solid #6bbaa7;
     margin-bottom: 0;
