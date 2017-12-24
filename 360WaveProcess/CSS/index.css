@@ -27,6 +27,10 @@ h2 {
     padding-bottom: 100px;
 }
 
+a:link {
+    color: #fba100;
+}
+
 /* Main Header Styles --------------------- */
 
 .intro {
@@ -80,10 +84,13 @@ h2 {
 /* About Styles --------------------- */
 
 .about {
+    height: 100%;
+    width: 100%;
     text-align: center;
-    background: #b6a19e;
+    background: linear-gradient(rgba(188, 161, 158, 1), rgba(188, 161, 158, 0.2) 40%, rgba(107, 186, 167, 0.2) 70%, rgba(107, 186, 167, 1) 100%),
+               #b6a19e url('../images/diect-shot-waves-brush-460x250.jpg') no-repeat 50% 50%;
+    background-size: cover;
     margin-top: 0;
-    height: 700px;
 }
 
 .aboutP {
@@ -95,8 +102,9 @@ h2 {
 /* Products Styles --------------------- */
 
 .products {
-    background-image: url('https://i.imgur.com/DhiGHBd.gifv');
-    background-position: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(107, 186, 167, 1), rgba(107, 186, 167, 0.2) 40%, rgba(108, 100, 139, 0.2) 70%, rgba(108, 100, 139, 1) 100%);
     background-size: cover;
 }
 
@@ -112,7 +120,19 @@ h2 {
 
 /* Tips Styles --------------------- */
 
+.tips {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(108, 100, 139, 1), rgba(188, 161, 158, 0.2) 40%, rgba(188, 161, 158, 0.2) 70%, rgba(188, 161, 158, 1) 100%);
+}
+
 /* Videos Styles --------------------- */
+
+.videos {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(188, 161, 158, 1), rgba(188, 161, 158, 0.2) 40%, rgba(107, 186, 167, 0.2) 70%, rgba(107, 186, 167, 1) 100%);
+}
 
 /* Subscribe Styles --------------------- */
 
